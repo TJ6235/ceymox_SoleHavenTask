@@ -1,0 +1,678 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+:root{
+  --primaryText:rgb(166, 3, 71);
+  --biegeBackground:rgb(240,237,224);
+  --whiteColor:white;
+  --blackColor:black;
+  --bgLinearGradient:linear-gradient(90deg, rgba(240,237,224,1) 48%, rgba(205,204,201,1) 100%);
+  --paddingZero:0;
+  --cardCommonHeight:120px;
+  --shoecardFontSize:12px;
+  --contactPageFontSize:25px;
+  --mobileSizeHeadings:27px;
+  --mobilesizesubhead:17px;
+}
+#navAndFirstSecWrapper{
+  background: var(--biegeBackground);
+  background: var(--bgLinearGradient);
+  height: 820px;
+}
+#navSearchbox{
+  width: 200px;
+  height: 30px;
+  border-radius: 7px;
+  border: 2px solid var(--blackColor);
+  padding-Left: 30px
+}
+.navLinks{
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--blackColor);
+  /* margin-left: 60px; */
+}
+#navLinks{
+  margin-left:60px;
+}
+#discoverPairSection{
+    background-color: var(--whiteColor);
+    height: 670px;
+    border-radius: 50px;
+    width: 800px;     
+}
+.mainHead{
+  font-size: 65px;
+  margin: 0;
+  padding: 0;
+}
+#mainHeadSub{
+  margin-top: -20px;
+}
+.yourText{
+  color: var(--primaryText);
+}
+#perfectPairText{
+  color: var(--primaryText);
+  margin-top: -20px;
+}
+
+#shopnowBtn{
+  background-color: var(--primaryText);
+  width: 180px;
+  border-radius: 7px;
+  margin-left: 65px;
+  color: var(--whiteColor);
+  height: 50px;
+}
+
+#getToCategoryone{
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+#getToCategorytwo{
+  width: 90%;
+  border: 2px solid var(--blackColor);
+  border-radius: 20px;
+}
+#getToCategorythree{
+  width: 90%;
+  border: 2px solid var(--blackColor);
+  border-radius: 20px;
+}
+#moreCategoryBtn{
+  height: 60px;
+  background-color: var(--primaryText);
+  color: var(--whiteColor);
+  font-weight: bolder;
+  width: 350px;
+  font-size: 25px;
+  border-radius: 8px;
+}
+#addtoCartBtn{
+   background-color: var(--primaryText);
+   width: 150px;
+   color: var(--whiteColor);
+   border-radius: 7px;
+   height: 40px;
+}
+.lastrow{
+  height: 200px;
+  margin: 0 -15px;
+  background-image: url("./assets/nike.png");
+  background-position: center;
+  background-size: cover;
+  background-color:var(--biegeBackground);
+  background-repeat: no-repeat; 
+}
+/* Circles.css */
+
+.circle-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.circle {
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 25px; 
+  font-weight: bold; 
+  color: var(--primaryText);
+  background-color: transparent; 
+  border: 2px solid var(--primaryText)
+}
+
+.circle.active {
+  background-color: var(--primaryText);
+  color: var(--whiteColor); 
+}
+#backToHome{
+  height: 60px;
+  width: 300px;
+  background-color: var(--primaryText);
+  border-radius: 7px;
+  color: var(--whiteColor);
+  font-size: larger;
+}
+.hiddenOverflow{
+  overflow: hidden;
+  font-size:30px ;
+}
+.addToChart{
+  width: '100%';
+   height: "420px"
+}
+.cardone{
+  background-color: var(--biegeBackground);
+  background-image: url('./assets/landingShoe.png');
+  border-radius: 5px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtwo{
+  background-color: var(--biegeBackground);
+  background-image: url('./assets/adidas.png');
+  border-radius: 5px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardthree{
+  background-color: var(--biegeBackground);
+  background-image: url('./assets/adidas.png');
+  border-radius: 5px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#talkshoeinputField{
+  border: 2px solid var(--blackColor);
+  height: 45px;
+  border-radius: 12px;
+}
+#talkshoeinputField2{
+  border: 2px solid var(--blackColor);
+  height: 45px;
+  height: 200px;
+  border-radius: 12px;
+
+}
+#sendMsgBtn{
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  font-size: 20px;
+  border-radius: 12px;
+  height: 55px;
+}
+#footerWrapper{
+  background-color: var(--blackColor);
+}
+#carouselExampleControls{
+  background-image: var(--bgLinearGradient);
+  height: 300px;
+}
+#carousel-control-prev{
+   height:'45px';
+   width:'45px';
+   border-Radius:'50%' ;
+   background-Color:'violet';
+}
+.carousel-inner{
+  height: 300px;
+}
+.solehavenFeedBack{
+  font-size: 18px;
+  margin-right: 90px;
+  text-align: left;
+  margin-top: 30px;
+}
+.laCA{
+  margin-Top:-10px;
+}
+.footerMarginCmn{
+  margin: 0;
+}
+.glassIcon{
+  position: absolute; 
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: #aaa;  
+}
+.inputWithIcon{
+  position: relative;
+}
+#cardBody{
+  padding: var(--paddingZero);
+}
+.cardSecRow{
+  height: var(--cardCommonHeight);
+}
+.brandName{
+  font-size: var(--shoecardFontSize);
+}
+#shoeType{
+  margin-top: -19px;
+  font-size: 25px;
+}
+#addCartDiv{
+  margin-top: -15px;
+}
+.shoeRate{
+  overflow: hidden;
+  font-size: 35px;
+}
+.newArrivalText{
+  font-size: 38px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.shoeAmount{
+  overflow: hidden;
+  font-size: 30px;
+  margin-left: -20px;
+}
+#talkShoeWrapper{
+  margin-top: 100px;
+}
+.talkShoes{
+  font-size: 55px;
+}
+.questions{
+  font-size: var(--contactPageFontSize);
+}
+.ourTeam{
+  margin-top: -20px;
+  font-size: var(--contactPageFontSize);
+}
+.converseContactImg{
+  height: 100%;
+  width: 100%;
+}
+.findFit{
+  font-size:55px;
+}
+.browseShoe{
+  margin-top: -10px;
+  font-size: 28px;
+}
+.stayAhead{
+  font-size: 55px;
+  overflow: hidden;
+}
+.firstStepArrival{
+  /* margin-top:-14px; */
+  font-size: 28px;
+  overflow: hidden;
+}
+#pgeNotFoundWrapper{
+  width:'100%';
+   height:'100vh';
+   display:'flex' ;
+    justify-Content:'center';
+    align-Items:'center';
+}
+#trendyCollection{
+  margin-left: 40px;
+}
+.newandheart{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.newBtn{
+  margin-left: 20px;
+}
+.Firstrow{
+  height: 200px;
+  background-image: url("./assets/nike.png");
+  background-position: center;
+  background-size: cover;
+  background-color:var(--biegeBackground);
+  background-repeat: no-repeat; 
+}
+.newBtnAndImg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heartImage{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#prevCircle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--primaryText);
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5);
+}
+#nextCircle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--primaryText);
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5);
+}
+.caorosselWhole{
+  height: 100%;
+  width: 100%;
+}
+.circleColumn{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.circleColumnTwo{
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end;    */
+}
+.userCardandImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+.imgandTexts{
+  display: flex;
+}
+.textsUser{
+  margin-top: 20px;
+}
+.newArrivalShoesAndArrows{
+  width: 330px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 15px;
+  display: flex;
+  background-color: var(--primaryText);
+}
+.newShoesWrapper{
+  height: 100%;
+  width: 230px;
+  border-radius: 0 15px 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowsWrapper{
+width: 80px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+margin-left: 12px;
+}
+.jordanShoe{
+  margin-right: 10px;
+}
+#numberOne{
+  margin-left: -15px;
+}
+#numberTwo{
+  margin-left: -50px;
+}
+.shoesbrand{
+  margin-left: -20px;
+}
+.shoeAmounttwo{
+   margin-left: -90px;
+}
+.orderComplete{
+  margin-left: -90px;
+}
+#wholecaurossel{
+  background-image: var(--bgLinearGradient);
+}
+.caurosselWhole{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.crslImageWrapper{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  #brandloGos .col-md-3,
+  #brandloGos .col-md-2 {
+      flex: 0 0 100%; 
+      max-width: 30%; 
+  }
+  
+  #brandloGos .col-md-3:nth-child(3),
+  #brandloGos .col-md-2:nth-child(4) {
+      flex: 0 0 50%; 
+      max-width: 100%; 
+  } 
+  #brandloGos{
+    margin-left: 20px;
+  }
+  .cardtwo{
+    margin-top: 40px;
+  }
+  .cardthree{
+    margin-top: 40px;
+  }
+  .findFit{
+    font-size: var(--mobileSizeHeadings);
+    font-weight: bolder;
+  }
+  .browseShoe{
+    font-size: var(--mobilesizesubhead);
+  }
+  #personality{
+    display: none;
+  }
+  #secCol{
+    width: 93%;
+    margin-left: 16px;
+  }
+  #moreCategoryBtn{
+    width:320px ;
+  }
+  .stayAhead{
+    font-size: var(--mobileSizeHeadings);
+  }
+  .firstStepArrival{
+    font-size: var(--mobilesizesubhead);
+  }
+  #arrival{
+    display: none;
+  }
+   #commonCard{
+    width: 93%;
+    margin-left: 16px;
+   }
+   #commonCardTwo{
+    width: 93%;
+    margin-left: 16px;
+    margin-top: 40px;
+   }
+  .cardSecRow{
+    height: 140px;
+  }
+  #btnDiv{
+    margin-top: -60px;
+  }
+  
+  #cardandtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #image{
+    height: 170px;
+    width: 170px;
+  }
+  #carouselExampleControls{
+    height: 600px;
+    width: 94%;
+    margin-left: 15px;
+  }
+  .solehavenFeedBack{
+    font-size: var(--mobilesizesubhead);  
+    text-align: center  ;
+    font-size: 14px;
+    margin-left: 40px;
+  }
+  .talkShoes{
+    font-size: var(--mobileSizeHeadings);
+    text-align: center;
+    margin-right: 50px;
+  }
+  .questions{
+    font-size: var(--mobilesizesubhead);
+    text-align: center;
+    margin-right: 40px;
+
+  }
+  .ourTeam{
+    font-size: var(--mobilesizesubhead);
+    text-align: center;
+    text-align: center;
+    margin-right: 40px;
+  }
+  #inputrowsContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+  #converseContactIm{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 400px;
+  }
+  #wholefooterText{
+    text-align: center;
+  }
+  #iconsfooter{
+    display: flex;
+    justify-content: center;
+  }
+  #copyright{
+    margin-left: 5px;
+  }
+  #policy{
+    margin-top: 80px;
+  }
+  #footerSole{
+    margin-top: 50px;
+  }
+  #discoverPairSection{
+    background-color: var(--whiteColor);
+    height: 600px;
+    border-radius: 50px;
+    width: 90%;
+    margin-top: 40px;
+  }
+  .mainHead{
+    font-size: 40px;
+  }
+  #mainHeadSub{
+    margin-top:-5px
+  }
+  #perfectPairText{
+    margin-top:-5px
+  }
+  #navAndFirstSecWrapper{
+    height: 1400px;
+  }
+  .newArrivalText{
+    text-align: center;
+    margin-left: -30px;
+  }
+ 
+ #trendyCollection{
+  font-size: var(--mobilesizesubhead);
+  text-align: center;
+  margin-left: -40px;
+ }
+
+ #shopNowBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -110px;
+ }
+
+  .circle-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .circle {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px; 
+    font-weight: bold; 
+    color: var(--primaryText);
+    background-color: transparent; 
+    border: 2px solid var(--primaryText);
+    margin-top: 10px;
+  } 
+  #numberTwo{
+    margin-top: 7px;
+  }
+  #numbers
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newArrivalShoesAndArrows{
+    margin-left: 30px;
+  }
+  .navImg{
+    height: 25px;
+  }
+  .inputWithIcon{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  #navLinks{
+    margin-top: 10px;
+    margin-left: -25px;
+  }
+  #navIcons{
+    margin-left: 130px;
+    margin-top: 20px;
+    
+  }
+  .hiddenOverflow{
+    margin-right: 120px;
+  }
+  .caurosselWhole {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+  }
+  .crslImageWrapper{
+    margin-right: 70px;
+  }
+  .textWrapperCrsl{
+    margin-left: 30px;
+  }
+  .textsUser{
+    margin-right: 40px;
+  }
+}
